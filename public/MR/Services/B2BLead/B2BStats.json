@@ -1,0 +1,47 @@
+{
+    "year": [
+        {
+            "statType": "Hot",
+            "number": 7354
+        },
+        {
+            "statType": "Warm",
+            "number": 7764
+        },
+        {
+            "statType": "Cold",
+            "number": 8550
+        }
+    ],
+    "month": [
+        {
+            "statType": "Hot",
+            "number": 612
+        },
+        {
+            "statType": "Warm",
+            "number": 645
+        },
+        {
+            "statType": "Cold",
+            "number": 712
+        }
+    ],
+    "checks": {
+        "Hot": [
+            "Highly interested potential customers",
+            "They are the bottom of the sales funnel",
+            "Require quick and efficient follow-up"
+        ],
+        "Warm": [
+            "Potential customers that have shown some interest.",
+            "They are the middle of the sales funnel.",
+            "Require consistent communication and providing relevant information."
+        ],
+        "Cold": [
+            "Potential customers that have shown little to no interest.",
+            "They are the top of the sales funnel.",
+            "Require marketing campaigns and lead nurturing techniques."
+        ]
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "Left": [
+        {
+            "id": 1,
+            "question": "Types of Merger and Acquisition"
+        },
+        {
+            "id": 2,
+            "question": "What Is Mergers And Acquisitions (M&A)?"
+        },
+        {
+            "id": 3,
+            "question": "Which Type of M&A Is Right for You?"
+        },
+        {
+            "id": 4,
+            "question": "What is a Merger?"
+        },
+        {
+            "id": 5,
+            "question": "Understanding Mergers and Acquisitions (M&A)"
+        },
+        {
+            "id": 6,
+            "question": "What is the Motive for Merger?"
+        },
+        {
+            "id": 7,
+            "question": "Types of Mergers and Acquisitions (M&A) Transactions"
+        },
+        {
+            "id": 8,
+            "question": "How Does a Merger Work?"
+        },
+        {
+            "id": 9,
+            "question": "How Are Merger and Acquisitions Financed?"
+        },
+        {
+            "id": 10,
+            "question": "What are the Advantages and Disadvantages of Merger"
+        }
+    ],
+    "Right": [
+        {
+            "id": 11,
+            "question": "Valuation of Merger and Acquisitions"
+        },
+        {
+            "id": 12,
+            "question": "What is an Acquisition?"
+        },
+        {
+            "id": 13,
+            "question": "Motives for Merger and Acquisitions"
+        },
+        {
+            "id": 14,
+            "question": "What is the Motive for Acquisition?"
+        },
+        {
+            "id": 15,
+            "question": "Is Rebranding Necessary?"
+        },
+        {
+            "id": 16,
+            "question": "How Does an Acquisition Work?"
+        },
+        {
+            "id": 17,
+            "question": "Steps involved in Merger and Acquisitions"
+        },
+        {
+            "id": 18,
+            "question": "What are the Advantages and Disadvantages of an Acquisition?"
+        },
+        {
+            "id": 19,
+            "question": "Impact of Mergers and Acquisitions"
+        },
+        {
+            "id": 20,
+            "question": "Difference Between Merger and Acquisition"
+        }
+    ]
+}

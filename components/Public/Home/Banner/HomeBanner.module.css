@@ -1,0 +1,42 @@
+.frontImageStyle {
+    background-repeat: repeat-x;
+    height: 560px;
+    position: absolute;
+    width: 100%;
+    background-position: 0 20%, 0 95%, 0 0, 0 100%, 0 0;
+    animation: 90s scale infinite linear;
+}
+
+.frontVideoStyle {
+    position: absolute;
+    width: 100%;
+    min-width: 100%;
+}
+
+.frontImage_MR {
+    background: url(/PublicHome/Front.png);
+}
+
+.frontImageMobile_MR {
+    background: url(/PublicHome/Front.png);
+}
+
+/* 
+.frontImage:after {
+    background: #000d1f;
+    opacity: .73;
+}
+
+.frontImageAfter:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+@keyframes scale {
+    100% {
+        background-position: -5000px 20%, -800px 95%, 500px 0, 1000px 100%, 400px 0;
+    }
+} */

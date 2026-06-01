@@ -1,0 +1,11 @@
+.frontImage {
+  background: url('/Front.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.FrameworkImage {
+  background: url('/Services/3D_Framework_bg.png');
+  background-repeat: round;
+  background-size: cover;
+}

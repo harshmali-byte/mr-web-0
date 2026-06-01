@@ -1,0 +1,37 @@
+[
+    {
+        "title": "B2B Lead Generation",
+        "description": "Connect with the right prospects and turn them into loyal customers, so you can take your business to the next level.",
+        "image": "B2BLeadGeneration"
+    },
+    {
+        "title": "Digital Marketing",
+        "description": "Our digital marketing experts will implement effective digital marketing strategies and techniques to procure leads for your business.",
+        "image": "DigitalMarketing"
+    },
+    {
+        "title": "Inbound Marketing",
+        "description": "Attract, engage, and delight customers by providing valuable content and experiences that address their needs and interests.",
+        "image": "InboundMarketing"
+    },
+    {
+        "title": "Social Media Marketing",
+        "description": "Promote your products or services with BrandEssence through various social media platforms to increase brand awareness, engagement, and ultimately drive more sales.",
+        "image": "SocialMediaMarketing"
+    },
+    {
+        "title": "B2B Databases",
+        "description": "BrandEssence assures a 98% accuracy for their B2B data, which is considered as one of the crucial constituents of marketing.",
+        "image": "B2BDatabases"
+    },
+    {
+        "title": "Content Marketing",
+        "description": "Create and share valuable, relevant, and consistent content to attract and retain a clearly defined audience and ultimately drive profitable customer action.",
+        "image": "ContentMarketing"
+    },
+    {
+        "title": "Account-Based Marketing",
+        "description": "Focus on engaging with specific high-value accounts or customers with our account-based marketing approach.",
+        "image": "AccountBasedMarketing"
+    }
+]

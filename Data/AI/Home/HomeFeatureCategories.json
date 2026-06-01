@@ -1,0 +1,87 @@
+[
+    {
+        "logo": "Agriculture.png",
+        "name": "Agriculture",
+        "url": "agriculture"
+    },
+    {
+        "logo": "Algae.png",
+        "name": "Algae",
+        "url": "algae"
+    },
+    {
+        "logo": "Battery.png",
+        "name": "Battery",
+        "url": "battery"
+    },
+    {
+        "logo": "beauty-and-personal-care.png",
+        "name": "Beauty & Personal Care",
+        "url": "beauty-and-personal-care"
+    },
+    {
+        "logo": "Beverages.png",
+        "name": "Beverages",
+        "url": "beverages"
+    },
+    {
+        "logo": "BFSI.png",
+        "name": "BFSI",
+        "url": "bfsi"
+    },
+    {
+        "logo": "drones.png",
+        "name": "Drones",
+        "url": "drones"
+    },
+    {
+        "logo": "ElectronicComponents.png",
+        "name": "Electronic Components",
+        "url": "electronic-components"
+    },
+    {
+        "logo": "energy-and-power.png",
+        "name": "Energy & Power",
+        "url": "energy-and-power"
+    },
+    {
+        "logo": "EV.png",
+        "name": "EV",
+        "url": "ev"
+    },
+    {
+        "logo": "Instrument.png",
+        "name": "Instrument",
+        "url": "instrument"
+    },
+    {
+        "logo": "LifeSciences.png",
+        "name": "Life Sciences",
+        "url": "life-sciences"
+    },
+    {
+        "logo": "Logistics.png",
+        "name": "Logistics",
+        "url": "logistics"
+    },
+    {
+        "logo": "Materials.png",
+        "name": "Materials",
+        "url": "materials"
+    },
+    {
+        "logo": "Packaging.png",
+        "name": "Packaging",
+        "url": "packaging"
+    },
+    {
+        "logo": "sensors-and-controls.png",
+        "name": "Sensors & Controls",
+        "url": "sensors-and-controls"
+    },
+    {
+        "logo": "SmartTechnologies.png",
+        "name": "Smart Technologies",
+        "url": "smart-technologies"
+    }
+]

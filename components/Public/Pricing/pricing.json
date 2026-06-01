@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "user": "Single User",
+        "image": "SingleUser.png",
+        "amount": "SingleUser",
+        "reprotPriceAttribute": "PriceSingleUser",
+        "description": "Single user license, allowing one specific user access to the product.",
+        "delivery": "Delivered in 48 Hours",
+        "PurchasePlan": 1
+    },
+    {
+        "id": 2,
+        "user": "Corporate User",
+        "image": "CorporateUser.png",
+        "amount": "Corporate",
+        "reprotPriceAttribute": "PriceEnterprise",
+        "description": "Corporate license . Allows all employees within your organization to access product.",
+        "delivery": "Delivered in 48 Hours",
+        "PurchasePlan": 2
+    }
+]

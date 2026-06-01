@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Go-to-Market Strategy",
+        "description": "Limited data and fragmented distribution complicate the route to market in emerging economies. Using Brandessence's next-gen go-to-market approach, companies can transform their sales and distribution capabilities to achieve profitable growth. We strive to accelerate your business growth by formulating effective expansion strategies. Our market research solutions are specially curated to understand your business needs and help you make informed strategic decisions.",
+        "image": "MarketStrategy.png"
+    },
+    {
+        "id": 2,
+        "title": "New Product Development",
+        "description": "Are you looking forward to launching new product or service in the market? You are at the right place. Our business intelligence solutions will provide you with granular insights on the competitive terrain along with other ongoing market trends. You can get a 360-degree outlook of your key competitors and accordingly design your launch strategies.",
+        "image": "NewProductDevelopment.png"
+    },
+    {
+        "id": 3,
+        "title": "Mergers and Acquisitions",
+        "description": "Looking for extensive end to end consulting and advisory supports on merger & acquisition deals in your business vertical? . Our team is well placed to assist and handle all elements of Mergers and Acquisitions and have experience over a different transaction sizes, types and industries. We provide full supports on Partner search, Transaction Assistance / Advisory, Due Diligence and valuation.",
+        "image": "MergersAndAcquisitions.png"
+    },
+    {
+        "id": 4,
+        "title": "Market feasibility study",
+        "description": "Are you looking to venture into new projects and want to know if the current market scenario is favourable? We can be your one stop solution! Our research reports contain the accurate assessment of a particular market in terms of numerous aspects. This will enable you to identify the feasibility of the related market over an estimated timeframe.",
+        "image": "MarketFeasibilityStudy.png"
+    },
+    {
+        "id": 5,
+        "title": "Competitive Intelligence",
+        "description": "Our reports highlight the prominent companies pertaining to a specific market. Every crucial aspect related to each player including the product portfolio, pricing trends, and expansion activities, just to name a few is included in our research documents.",
+        "image": "CompetitiveIntelligence.png"
+    },
+    {
+        "id": 6,
+        "title": "Pricing Analysis",
+        "description": "The market research solutions offered by Brandessence contains a specific pricing analysis segment. Every product and services pertaining to an industry is extensively assessed in terms of their proposed prices. This will enable you to evaluate on how these prices will affect the growth of your business and influence your sales volume. Without a comprehensive pricing strategy, no financial plan can be complete. Professional pricing strategies and analyses can boost profits, increase growth, and solidify the market position.",
+        "image": "PricingAnalysis.png"
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "logo": "Agriculture.png",
+        "name": "Agriculture",
+        "url": "agriculture"
+    },
+    {
+        "logo": "Healthcare.png",
+        "name": "Healthcare",
+        "url": "healthcare"
+    },
+    {
+        "logo": "Pharmaceutical.png",
+        "name": "Pharmaceutical",
+        "url": "pharmaceutical"
+    },
+    {
+        "logo": "Biotechnology.png",
+        "name": "Biotechnology",
+        "url": "biotechnology"
+    },
+    {
+        "logo": "Security.png",
+        "name": "Security",
+        "url": "security"
+    },
+    {
+        "logo": "Energy.png",
+        "name": "Energy and Mining",
+        "url": "energy-and-mining"
+    },
+    {
+        "logo": "Food And Beverage.png",
+        "name": "Food And Beverage",
+        "url": "food-and-beverage"
+    },
+    {
+        "logo": "Chemical And Materials.png",
+        "name": "Chemical And Materials",
+        "url": "chemical-and-materials"
+    },
+    {
+        "logo": "Construction.png",
+        "name": "Construction",
+        "url": "construction"
+    },
+    {
+        "logo": "Defense.png",
+        "name": "Defense",
+        "url": "defense"
+    },
+    {
+        "logo": "Aviation.png",
+        "name": "Aviation",
+        "url": "aviation"
+    },
+    {
+        "logo": "Medical Device.png",
+        "name": "Medical Device",
+        "url": "medical-device"
+    },
+    {
+        "logo": "Automotive.png",
+        "name": "Automotive And Transport",
+        "url": "automotive-and-transport"
+    },
+    {
+        "logo": "Cryptocurrency.png",
+        "name": "Cryptocurrency",
+        "url": "cryptocurrency"
+    },
+    {
+        "logo": "Heavy Industry.png",
+        "name": "Heavy Industry",
+        "url": "heavy-industry"
+    },
+    {
+        "logo": "Consumer Goods.png",
+        "name": "Consumer Goods",
+        "url": "consumer-goods"
+    },
+    {
+        "logo": "Technology And Media.png",
+        "name": "Technology And Media",
+        "url": "technology-and-media"
+    }
+]

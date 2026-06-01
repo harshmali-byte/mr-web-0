@@ -1,0 +1,11 @@
+.table th:not(:first-child) {
+    border-left: 1px solid #fff;
+}
+
+.table td:not(:first-child) {
+    border-left: 1px solid #ccc;
+}
+
+.table td {
+    padding: 2px 3px;
+}

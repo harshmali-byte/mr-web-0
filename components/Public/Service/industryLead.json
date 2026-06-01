@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Syndicate Reports",
+        "description": "We at BMRC offer syndicated research reports catering to over 45 industry verticals. Our reports incorporate detailed insights on the ongoing market trends in terms of drivers, restraints, opportunities, and challenges. We also offer detailed assessment on the regional, segmental, and competitive landscapes of an industry Our research is highly focussed on empowering our clients with accurate market-based data and enable them to make informed decisions.",
+        "image": "SyndicateReports.png"
+    },
+    {
+        "id": 2,
+        "title": "Customized Reports",
+        "description": "Our market research firm also offers customized reports that are curated based on specific client requirements. You can get actionable insights on a particular segment or market trends related to your areas of interest by opting for our custom-made reports. Our loyal clients also get the benefit of free report customization on the purchase of syndicated reports.",
+        "image": "CustomizesReports.png"
+    },
+    {
+        "id": 3,
+        "title": "Competitive Insights",
+        "description": "Our reports are integrated with a detailed overview of each key player operating in a market. We include details such as company overview, news analysis, product analysis, SWOT analysis, and strategy analysis, among others to provide you with extensive insights about your competitors. This will help you earn a competitive edge in the related business vertical.",
+        "image": "CompetitiveInsights.png"
+    }
+]

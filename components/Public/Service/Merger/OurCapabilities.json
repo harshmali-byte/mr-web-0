@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Corporate strategy",
+        "description": "We can help you identify the right strategic fit for your business by evaluating why, where, and when investments should be made to align with your objectives. Our expertise can help you make informed decisions that will lead to increased success.",
+        "image": "CorporateStrategy.png"
+    },
+    {
+        "id": 2,
+        "title": "Divestitures & carve- outs",
+        "description": "We will develop a plan to support you in achieving your goals for divesting. This plan will include strategies for growth and expansion, as well as for finding and cultivating new opportunities. We will work with you to optimize the process and ensure that everything goes smoothly. With our help, you'll have the ability to reach your divestiture goals.",
+        "image": "Divestitures.png"
+    },
+    {
+        "id": 3,
+        "title": "Due diligence",
+        "description": "Question assumptions. Our market, customer, competitor and technology insights can help guide you in your due diligence process to evaluate if the target is the right fit. We encourage critical thinking when reviewing the evidence; challenge yourself to identify potential risks, hidden opportunities, and unexpected outcomes.",
+        "image": "DueDiligence.png"
+    },
+    {
+        "id": 4,
+        "title": "Merger integration",
+        "description": "We will ensure that you are able to fully capitalize on the synergies of your deal and maximize the potential benefits for your organization. We will provide you with comprehensive guidance and support every step of the way, so that you can move forward with confidence.",
+        "image": "MergerIntegration.png"
+    },
+    {
+        "id": 5,
+        "title": "Target screening",
+        "description": "We will evaluate potential candidates and their key business drivers to help you determine the best deal for your needs.",
+        "image": "TargetScreening.png"
+    },
+    {
+        "id": 6,
+        "title": "Analytics",
+        "description": "By leveraging advanced analytics, we are able to gain actionable insights that can help to drive performance, streamline the M&A deal cycle, and enhance decision making. These insights can help to identify potential opportunities, identify areas for improvement, and optimize processes for maximum efficiency.",
+        "image": "Analytics.png"
+    }
+]

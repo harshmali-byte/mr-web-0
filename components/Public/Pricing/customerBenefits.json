@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Global and Country an COVID-19 Report",
+        "image": "GlobalAndCountry.png",
+        "description": "Member can access Global and Country level reports along with newly published COVID-19 Reports , 10,000+ new emerging market reports"
+    },
+    {
+        "id": 2,
+        "title": "Infographics & Statistics",
+        "image": "InfographicsStatistics.png",
+        "description": "An infographic & Statistics Report is a form of visual content that is visually engaging, memorable and easy to understand. We have created 3000+ reports for our members."
+    },
+    {
+        "id": 3,
+        "title": "Company Profiles",
+        "image": "CompanyProfile.png",
+        "description": "A company profile Report is a professional summary of the business and its activities related to specific market. Report will content financials and recent developments along with market share."
+    },
+    {
+        "id": 4,
+        "title": "Analyst support",
+        "image": "AnalystSupport.png",
+        "description": "We have dedicated Research analyst team for i-Factor’s member. They can ask any doubt and queries related to research within scope."
+    },
+    {
+        "id": 5,
+        "title": "On Request Report",
+        "image": "RequestReport.png",
+        "description": "On Request report feature gives you freedom to demand emerging titles and access that report in membership cost."
+    },
+    {
+        "id": 6,
+        "title": "Low Cost",
+        "image": "LowCost.png",
+        "description": "We offer services at prices dramatically lower than the prices established businesses charge. Our main objective behind is to help business to procure market insights in low cost."
+    },
+    {
+        "id": 7,
+        "title": "Market Size Table",
+        "image": "MarketSizeTable.png",
+        "description": "Members can access and download the Market Engineering sheet in PDF , Excel and word format"
+    },
+    {
+        "id": 8,
+        "title": "Multi-Currency Payment Support",
+        "image": "MultiCurrency.png",
+        "description": "We provide the Multi-Currency Payment support,which can save your incredible amount of money in conversion services."
+    }
+]
