@@ -9,11 +9,11 @@ import { enUS } from 'date-fns/locale'
 import LocalizationProvider from '@mui/lab/LocalizationProvider';
 import theme from '../styles/theme';
 import { OrgInfo } from '../components/Common/Constants';
-import Script from "next/script";
 import { useRouter } from "next/router";
 import * as gtag from '../lib/gtag';
 import { Analytics } from '@vercel/analytics/react';
 import PageLoader from '../components/Common/PageLoader';
+import GoogleAnalytics from '../components/Common/Analytics/GoogleAnalytics';
 import TagManager from 'react-gtm-module'
 
 const tagManagerArgs = {
@@ -51,16 +51,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      {
-        gtag && gtag.GA_TRACKING_ID
-          ? <>
-            <Script
-              strategy="beforeInteractive"
-              src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-            />
-          </>
-          : null
-      }
+      <GoogleAnalytics />
 
       {isLoading && <PageLoader />}
       <StyledEngineProvider injectFirst>
