@@ -11,9 +11,13 @@ import dynamic from 'next/dynamic';
 // import ResearchSegments from '../Research/ResearchView/Summary/ResearchSegments';
 
 const RequestQueryForm = dynamic(() => import('./RequestQueryForm'));
+const HubSpotSampleForm = dynamic(() => import('./HubSpotSampleForm'));
 const LinkedInVishal = dynamic(() => import('../../Common/SocialCards/LinkedIn/LinkedInVishal'));
 const LinkedInAjay = dynamic(() => import('../../Common/SocialCards/LinkedIn/LinkedInAjay'));
 const ResearchSegments = dynamic(() => import('../Research/ResearchView/Summary/ResearchSegments'));
+
+// Request types whose form is handled by HubSpot (the "view/free sample" flow).
+const HUBSPOT_REQUEST_TYPES = ['requestsample'];
 
 const NoMaxWidthTooltip = styled(({ className, ...props }) => (
     <Tooltip {...props} classes={{ popper: className }} />
@@ -25,6 +29,7 @@ const NoMaxWidthTooltip = styled(({ className, ...props }) => (
 
 export default function RequestQuery({ requestType, postId, research }) {
     const theme = useTheme();
+    const useHubSpotForm = requestType && HUBSPOT_REQUEST_TYPES.includes(requestType.toLowerCase());
 
     function reportDetailListItem(label, text) {
         return (
@@ -115,7 +120,11 @@ export default function RequestQuery({ requestType, postId, research }) {
                                 {buildReportDetails()}
                             </Grid>
                             <Grid item xs={12} lg={5}>
-                                <RequestQueryForm requestType={requestType} postId={postId} />
+                                {
+                                    useHubSpotForm
+                                        ? <HubSpotSampleForm />
+                                        : <RequestQueryForm requestType={requestType} postId={postId} />
+                                }
                             </Grid>
                         </Grid>
                     </CardContent>

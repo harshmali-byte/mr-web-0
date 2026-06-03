@@ -13,6 +13,7 @@ const ScrollTop = dynamic(() => import('./ScrollTop'));
 const PublicNoMenu = dynamic(() => import("./Menu/PublicNoMenu"));
 const PublicMenu = dynamic(() => import("./Menu/PublicMenu"));
 const ChatTawk = dynamic(() => import('./ChatTawk'));
+const HubSpotSampleModal = dynamic(() => import('../QueryForms/HubSpotSampleModal'), { ssr: false });
 
 export default function PublicLayout({ children, isNotContainer, hideMenu, marginTop }) {
     const router = useRouter();
@@ -73,6 +74,7 @@ export default function PublicLayout({ children, isNotContainer, hideMenu, margi
                 </Grid>
                 <PublicFooter />
             </Grid>
+            <HubSpotSampleModal />
             <PardotTrack />
         </>
     )

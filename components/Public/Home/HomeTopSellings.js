@@ -4,11 +4,11 @@ import HomeSectionTitle from './HomeSectionTitle';
 import DownloadIcon from '@mui/icons-material/Download';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import Loader from '../../Common/Loader';
+import { openHubSpotSample } from '../../../lib/hubspotSample';
 
 export default function HomeTopSellings({ homeTopSellingReports }) {
-    function onRequestClick(e, id) {
-        let requestType = e.currentTarget.attributes['requesttype'].value;
-        window.open(`/${requestType}/PostId/${id}`);
+    function onRequestClick() {
+        openHubSpotSample();
     }
 
     if (!homeTopSellingReports) {
@@ -45,7 +45,7 @@ export default function HomeTopSellings({ homeTopSellingReports }) {
                                             </Box>
                                             <Box sx={{ flex: 0 }}>
                                                 <Box sx={{ display: 'flex', justifyContent: 'space-between', flexDirection: { xs: 'column', lg: 'row' } }}>
-                                                    <Button variant="contained" sx={{ backgroundColor: '#747579' }} startIcon={<DownloadIcon />} requesttype='requestSample' onClick={(e) => onRequestClick(e, report.Id)}>Free Sample</Button>
+                                                    <Button variant="contained" sx={{ backgroundColor: '#747579' }} startIcon={<DownloadIcon />} onClick={onRequestClick}>Free Sample</Button>
                                                     <Button variant="text" href={report.url} target="_blank" disableRipple={true}
                                                         sx={{
                                                             textDecoration: 'underline', mt: { xs: 1, sm: 0 }, "&.MuiButton-root:hover": {

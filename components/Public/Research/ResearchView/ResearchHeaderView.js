@@ -5,6 +5,7 @@ import { useTheme } from '@mui/material/styles';
 import EditIcon from '@mui/icons-material/Edit';
 import { useAuth } from '../../../Auth/AuthContext';
 import Image from 'next/image';
+import { openHubSpotSample } from '../../../../lib/hubspotSample';
 
 export default function ResearchHeaderView({ Research, setTocVisible }) {
     const theme = useTheme();
@@ -39,6 +40,10 @@ export default function ResearchHeaderView({ Research, setTocVisible }) {
 
     function onRequestClick(e) {
         let requestType = e.currentTarget.attributes['requesttype'].value;
+        if (requestType && requestType.toLowerCase() === 'requestsample') {
+            openHubSpotSample();
+            return;
+        }
         window.open(`/${requestType}/PostId/${Research.Id}`);
     }
 
