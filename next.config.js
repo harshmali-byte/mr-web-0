@@ -34,9 +34,6 @@ const nextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     domains: ['flagcdn.com', 'api.mr.com', 'geolocation-db.com', 'api.brandessenceresearch.in', 'aiapi.brandessenceresearch.in']
   },
-  experimental: {
-    urlImports: ['https://checkout.razorpay.com/v1/checkout.js'],
-  },
   // async headers() {
   //   return [
   //     {
@@ -47,20 +44,38 @@ const nextConfig = {
   //   ]
   // },
 
+  async rewrites() {
+    return [
+      {
+        source: '/sitemap-reports/:category.xml',
+        destination: '/api/sitemap/reports/:category',
+      },
+    ];
+  },
+
   redirects: async () => {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_REACT_APP_APIURL}/Redirect/Get`);
-    const data = await response.json()
-    if (data.IsSuccess && data.Data) {
-      return data.Data.map(redirect => ({
-        source: redirect.Source,
-        destination: redirect.Destination,
-        permanent: redirect.IsPermanent,
-      }))
-    }
-    else {
+    // Local dev: avoid blocking startup/first request on remote Redirect API.
+    if (process.env.NODE_ENV === 'development') {
       return [];
     }
-  }
+
+    try {
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_REACT_APP_APIURL}/Redirect/Get`
+      );
+      const data = await response.json();
+      if (data.IsSuccess && data.Data) {
+        return data.Data.map((redirect) => ({
+          source: redirect.Source,
+          destination: redirect.Destination,
+          permanent: redirect.IsPermanent,
+        }));
+      }
+    } catch (error) {
+      console.warn('[redirects] Failed to load redirects:', error.message);
+    }
+    return [];
+  },
 }
 
 module.exports = nextConfig
